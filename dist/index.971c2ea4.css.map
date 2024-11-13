@@ -1,0 +1,1 @@
+{"mappings":"AAEA","sources":["src/styles/main.scss"],"sourcesContent":["@import \"./variables\";\n\nbody {\n  font-family: Arial, sans-serif;\n  margin: 0;\n  padding: 0;\n}"],"names":[],"version":3,"file":"index.971c2ea4.css.map","sourceRoot":"/__parcel_source_root/"}
