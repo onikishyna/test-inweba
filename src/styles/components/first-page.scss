@@ -1,0 +1,52 @@
+.first-page {
+  display: flex;
+  gap: 16px;
+  padding: 50px 0;
+
+  &__info {
+    box-sizing: border-box;
+    background-color: $dark-blue;
+    border-radius: 20px;
+    color: $light-grey;
+    padding: 100px 80px;
+    height: 519px;
+  }
+
+  &__title {
+    font-family: $pop-font;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    color: $light-grey;
+    padding-bottom: 16px;
+    margin: 0;
+  }
+
+  &__txt {
+    display: inline-block;
+    font-family: $rob-font;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: $light-grey;
+    margin-bottom: 40px;
+  }
+
+  &__explore {
+    background-color: $light-grey;
+    border-radius: 14px;
+    color: $dark-blue;
+    font-family: $rob-font;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 14px 20px;
+    border-width: 0;
+    border-color: transparent;
+    display: block;
+  }
+
+  &__img {
+    border-radius: 20px;
+  }
+}

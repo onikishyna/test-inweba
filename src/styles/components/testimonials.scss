@@ -1,0 +1,135 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+
+  &__header {
+    text-transform: uppercase;
+    font-family: $pop-font;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 63px;
+    color: $dark-blue;
+    margin: 50px 0 20px 0;
+  }
+
+  &__cards {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 24px;
+  }
+
+  &__scroller {
+    width: 221px;
+    height: 56px;
+    border-radius: 100px;
+    border: 1px solid $scroller-gray;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid $dark-blue;
+  border-radius: 12px;
+
+  &__name {
+    display: block;
+    font-family: $pop-font;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: $dark-grey;
+    margin-bottom: 2px;
+  }
+
+  &__role {
+    color: $role-gray;
+    font-family: $rob-font;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 2px;
+  }
+
+  &__stars {
+    display: flex;
+    padding-bottom: 16px;
+  }
+
+  &__text {
+    font-family: $rob-font;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $dark-grey;
+  }
+
+  &__photo {
+    border-radius: 12px;
+    width: 200px;
+    height: 225px;
+  }
+}
+
+.stars__star {
+  height: 24px;
+  width: 24px;
+  background-image: url("/src/styles/images/Star-test.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.scroller-left,
+.scroller-middle,
+.scroller-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroller-left {
+  background-color: $button-gray;
+  border-radius: 46px;
+  height: 32px;
+  width: 32px;
+
+  &__left-arrow {
+    background-image: url("/src/styles/images/scroll-left.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10px;
+    width: 5px;
+  }
+}
+
+.scroller-middle {
+  background-image: url("/src/styles/images/Indication.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 4px;
+  width: 69px;
+}
+
+.scroller-right {
+  background-color: $dark-blue;
+  border-radius: 46px;
+  height: 32px;
+  width: 32px;
+
+  &__right-arrow {
+    background-image: url("/src/styles/images/scroll-right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10px;
+    width: 5px;
+  }
+}

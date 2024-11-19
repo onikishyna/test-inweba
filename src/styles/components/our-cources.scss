@@ -1,0 +1,186 @@
+.our-courses {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__title {
+    margin: 50px 0 0 0;
+    text-transform: uppercase;
+    font-family: $pop-font;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 63px;
+    color: $dark-blue;
+  }
+
+  &__text {
+    font-family: $rob-font;
+  }
+
+  &__headline {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: $dark-blue;
+    text-transform: uppercase;
+    margin: 0 0 16px 0;
+  }
+
+  &__card-sec {
+    margin-bottom: 122px;
+  }
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+  border: 1px solid $dark-blue;
+  gap: 40px;
+  padding: 40px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__head {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 0;
+    font-family: $pop-font;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    span {
+      color: $dark-blue;
+      text-transform: uppercase;
+    }
+
+    &__symbol {
+      padding-right: 8px;
+      height: 24px;
+      width: 24px;
+    }
+  }
+
+  &__button {
+    display: flex;
+    font-family: $rob-font;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    align-items: center;
+    background-color: $light-grey;
+    border: none;
+
+    span {
+      color: $dark-grey;
+      text-transform: uppercase;
+      margin-left: 10px;
+    }
+  }
+
+  &__trivia {
+    display: flex;
+    gap: 12px;
+  }
+}
+
+.star-wrapper {
+  height: 60px;
+  width: 60px;
+  border-radius: 12px;
+  background-color: $dark-blue;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+
+  img {
+    width: auto;
+    height: auto;
+  }
+}
+
+.trivia {
+  display: inline-flex;
+  background-color: $pale-blue;
+  color: $dark-grey;
+  font-family: $rob-font;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  border-radius: 45px;
+  text-align: center;
+  padding: 10px 16px 10px 16px;
+}
+
+.models {
+  font-family: $rob-font;
+  color: $dark-grey;
+  display: flex;
+  flex-direction: column;
+  line-height: 27px;
+
+  * {
+    font-family: inherit;
+    color: inherit;
+    display: inherit;
+    line-height: inherit;
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin: 0 0 8px 0;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+  }
+}
+
+.price {
+  text-transform: uppercase;
+  color: $dark-blue;
+  font-family: $rob-font;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.join {
+  background-color: $dark-blue;
+  border-radius: 14px;
+  color: $light-grey;
+  font-family: $rob-font;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  width: 216px;
+  text-transform: uppercase;
+  font-family: $rob-font;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  border: none;
+  height: 58px;
+}
+
+.text__models1 .text__models2 {
+  > :last-child {
+    margin-bottom: 16px;
+  }
+}

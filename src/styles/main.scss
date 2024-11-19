@@ -1,7 +1,22 @@
 @import "./variables";
 
+@import "./components/header.scss";
+@import "./components/first-page.scss";
+@import "./components/advantages.scss";
+@import "./components/about-us.scss";
+@import "./components/our-cources.scss";
+@import "./components/form.scss";
+@import "./components/testimonials.scss";
+@import "./components/faq.scss";
+@import "./components/footer.scss";
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: $rob-font;
   margin: 0;
   padding: 0;
+  background-color: $light-grey;
+}
+
+.main-container {
+  margin: 0 287px;
 }
